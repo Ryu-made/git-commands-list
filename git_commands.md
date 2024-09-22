@@ -8,5 +8,13 @@
 
 > [!NOTE]   
 > <b>Commit 명령어</b>로 생성된 '커밋 파일'은 <u>한 번 생성되면 영원히 지워지지 않는다</u>는 것을 항상 명심하자.    
-
+---
 ## Git 설치 이후 처음 환경설정
+### git config 명령어
+1. git config --global user.name "사용자이름"
+    + 명령어를 입력하고 큰따옴표("")안에 원하는 닉네임을 입력한다.
+2. git config --global user.email "이메일이름"
+    + 명령어를 입력하고 큰따옴표("") 안에 원격 저장소(깃허브)의 계정으로 사용할 이메일 주소를 입력한다.
+3. git config --list
+    + 상위에 입력한 이름과 주소 등의 git에 등록되어 있는 정보 목록이다. <u>커밋을 등록할 때마다 </u>
+3. git config --global core.editor "~\AppData\Local\Programs\Microsoft VS Code\bin\code"
